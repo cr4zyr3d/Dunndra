@@ -1,6 +1,5 @@
 #Import
-import class_lst from book_data.py
-
+from book_data.py import class_lst 
 
 #Information de base:
 name = input('Nom du personnage: ')
