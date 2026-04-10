@@ -1,3 +1,7 @@
+#Import
+import class_lst from book_data.py
+
+
 #Information de base:
 name = input('Nom du personnage: ')
 new_carac = input('Est-ce un nouveau personnage ? (y/n) ')
@@ -9,7 +13,10 @@ else:
   print('Veuillez répondre par y ou n')
   
 #Determination de la Classe
-classe = input('Quel classe souhaitez vous jouer ? ')
+print('Quel classe souhaitez vous incarner ?')
+for i in len(class_lst):
+  print(class_lst[i])
+classe = input()
 if new_carac == 'n':
   niveau = int(input('De quel niveau est le personnage ? '))
   if niveau <= 0:
