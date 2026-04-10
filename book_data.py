@@ -1,0 +1,16 @@
+class_lst=['Artificier','Barbare','Barde','Clerc','Druide','Ensorceleur','Guerrier','Magicien','Moine','Occultiste','Paladin','Rôdeur','Roublard']
+sclst_Art=[]
+sclst_Bar=[]
+sclst_Cle=[]
+sclst_Dru=[]
+sclst_Ens=[]
+sclst_Gue=[]
+sclst_Mag=[]
+sclst_Moi=[]
+sclst_Occ=[]
+sclst_Pal=[]
+sclst_Rod=[]
+sclst_Rou=[]
+histo_lst=['Acolyte','Artisan','Artiste','Charlatan','Criminel','Fermier','Ermite','Garde','Guide','Marin','Marchand','Noble','Sage','Soldat','Scribe','Voyageur']
+
+           
